@@ -42,7 +42,6 @@ def parse_quote_element(quote: Tag) -> Quote:
 
 
 def main(output_csv_path: str) -> None:
-    pass
     current_page = 1
     quotes: list[Quote] = []
 
